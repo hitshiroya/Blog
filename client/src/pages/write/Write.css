@@ -1,0 +1,64 @@
+ .form{
+    padding-top: 50px;
+}
+
+.formgrp{
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.writeIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(153, 149, 149);
+    cursor: pointer;
+}
+.title{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+
+.title:focus{
+    outline: none;
+}
+
+.content-part{
+    font-size: 20px;
+    margin-left: 100px;
+    width: 70vw;
+    border: none;
+}
+
+.content-part:focus{
+    outline: none;
+}
+
+.submit-btn{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.writeimg{
+    width: 70vw;
+    height: 250px;
+    margin-left: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
